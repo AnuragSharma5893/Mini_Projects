@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Alarm Clock </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <audio id="myaudio"> <source src="./audio/ringtone1.mp3"> </audio>
+
+</head>
+<body>
+    <div class="wrapper">
+        <img src="clock.svg" alt="clock">
+        <h1> 00:00:00 PM </h1>
+        <div class="content">
+
+            <div class="column">
+                <select>
+                    <option value = "Hours" selected hidden> Hours</option>
+                    <!-- <option value = "01"> 01</option>
+                    <option value = "02"> 02</option>
+                    <option value = "03"> 03</option> -->
+                </select>
+            </div>   
+            
+            <div class="column">
+                <select>
+                    <option value = "Minute" selected hidden> Minute</option>
+                    <!-- <option value = "01"> 01</option>
+                    <option value = "02"> 02</option>
+                    <option value = "03"> 03</option> -->
+                </select>
+            </div>   
+
+            <div class="column">
+                <select>
+                    <option value = "AM/PM" selected hidden> AM/PM </option>
+                    <!-- <option value = "01"> 01</option>
+                    <option value = "02"> 02</option>
+                    <option value = "03"> 03</option> -->
+                </select>
+            </div>   
+            
+            
+        </div>
+        <div>
+            <button>Set Alarm</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
