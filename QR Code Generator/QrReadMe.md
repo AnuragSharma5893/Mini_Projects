@@ -1,0 +1,1 @@
+Using HTML,CSS & JavaScript creating a simple qr generator project.
